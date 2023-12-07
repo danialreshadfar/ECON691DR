@@ -44,3 +44,5 @@ ggplot(core) +
 #I use to code the line 14 like: sate=c(05,22,28,01) but I cannot find out how to change the code for plots to have each states map separately? Is creating maps for each state separately needed?
 #Moreover, in the HW1 PDF file part 3, you mentioned "In the second and third maps, remove the scale_fill_gradient2() line of code and fill by the median income and median rent respectively."
 #what does it mean? I created three maps for Afford,Med_Rent, and med_inc2 (monthly income). Is anything else needed?
+
+#See Readme
