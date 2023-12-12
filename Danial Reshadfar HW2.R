@@ -92,10 +92,10 @@ stargazer(mod2a, type = "latex")
 stargazer(mod1b, type = "latex")
 stargazer(mod2b, type = "latex")
 
-#Result Tables in HTML format
+#Result Tables in HTML format  #This is all fine and good, but you did not save them so they just show as a coded mess on the console. Use the "out" option in stargazer to save.
 stargazer(mod1, type = "html")
 stargazer(mod2, type = "html")
 stargazer(mod1a, type = "html")
 stargazer(mod2a, type = "html")
 stargazer(mod1b, type = "html")
-stargazer(mod2b, type = "html")
+stargazer(mod2b, type = "html", out="./mod2b.html")
